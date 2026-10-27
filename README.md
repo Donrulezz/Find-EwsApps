@@ -43,6 +43,14 @@ Unblock-File .\Find-EwsApps.ps1
 .\Find-EwsApps.ps1 -UsageCsv .\EWSWeeklyUsage.csv -ResolveNames
 ```
 
+Or install it from the [PowerShell Gallery](https://www.powershellgallery.com/packages/Get-EwsAppReadiness), where the same
+script is published as **Get-EwsAppReadiness** (the name Find-EwsApps was already taken there):
+
+```powershell
+Install-Script -Name Get-EwsAppReadiness -Scope CurrentUser
+Get-EwsAppReadiness.ps1 -UsageCsv .\EWSWeeklyUsage.csv -ResolveNames
+```
+
 Output: `EwsApps-<date>.html` and `.csv` in the current folder (`-OutputFolder` to change it), plus a printed
 `Set-OrganizationConfig -EwsAllowedAppIDs "..."` command that merges your current list with every app in use.
 **The command is never run by the script.** Review it first: setting the property replaces the whole list, and
