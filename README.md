@@ -100,3 +100,8 @@ authentication change at the end of December 2026.
 ## License
 
 MIT. See [LICENSE](LICENSE).
+
+## Need it done?
+I audit which apps still use EWS, keep the critical ones running with the allow list until 1 April 2027, and rewrite your
+scripts for Microsoft Graph: [migrate your EWS app or script to Microsoft Graph (Fiverr, from $45)](https://www.fiverr.com/donrulezz/install-secure-self-hosted-n8n-on-your-vps-with-https-and-backups).
+The script stays free.
