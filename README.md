@@ -102,6 +102,7 @@ authentication change at the end of December 2026.
 MIT. See [LICENSE](LICENSE).
 
 ## Need it done?
-I audit which apps still use EWS, keep the critical ones running with the allow list until 1 April 2027, and rewrite your
-scripts for Microsoft Graph: [migrate your EWS app or script to Microsoft Graph (Fiverr, from $45)](https://www.fiverr.com/donrulezz/install-secure-self-hosted-n8n-on-your-vps-with-https-and-backups).
+Many apps to sort out, or no time to build the allow list? The [EWS Shutdown Kit ($29)](https://donruler.gumroad.com/l/ews-shutdown-kit)
+walks through the allow list without breaking anything, lists 16 apps and vendor groups with their app IDs, maps EWS calls to
+Microsoft Graph for in-house scripts, and has ready-to-send vendor messages.
 The script stays free.
